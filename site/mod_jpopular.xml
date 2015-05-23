@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension
 	type="module"
-	version="2.5"
+	version="3.1"
 	client="site"
 	method="upgrade">
 	<name>JPopular - Popular Articles by Day</name>
 	<author>&lt;a href='http://www.noxidsoft.com/' target='blank' style=''&gt;&lt;b&gt;Noxidsoft - Noel Dixon&lt;/b&gt;&lt;/a&gt;</author>
-	<creationDate>June 2013</creationDate>
-	<copyright>Copyright (C) 2007 - 2013 Noxidsoft. All rights reserved.</copyright>
+	<creationDate>August 2014</creationDate>
+	<copyright>Copyright (C) 2007 - 2014 Noxidsoft. All rights reserved.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<authorEmail>admin@noxidsoft.com</authorEmail>
 	<authorUrl>www.noxidsoft.com</authorUrl>
-	<version>2.5.11</version>
+	<version>3.1.1</version>
 	<description>MOD_JPOPULAR_XML_DESCRIPTION</description>
-	
+
 	<files>
 		<filename module="mod_jpopular">mod_jpopular.php</filename>
 		<folder>tmpl</folder>
@@ -45,7 +45,7 @@
 					default="5"
 					label="MOD_JPOPULAR_FIELD_COUNT_LABEL"
 					description="MOD_JPOPULAR_FIELD_COUNT_DESC" />
-				
+
 				<field
 					name="show_hits"
 					type="radio"
@@ -57,11 +57,11 @@
 					<option
 						value="0">JHIDE</option>
 				</field>
-				
+
 				<field name="jrelative_date_pop" type="text" default="0"
 					label="MOD_ARTICLES_CATEGORY_FIELD_RELATIVEDATE_LABEL"
 					description="MOD_ARTICLES_CATEGORY_FIELD_RELATIVEDATE_DESC" />
-					
+
 				<field name="order_field" type="list" default="DESC"
 					label="MOD_JPOPULAR_FIELD_ORDER_LABEL"
 					description="MOD_JPOPULAR_FIELD_ORDER_DESC">
@@ -70,12 +70,12 @@
 					<option value="ASC">Ascending
 					</option>
 				</field>
-				
+
 				<field name="excluded_articles" type="textarea"
 					cols="10" rows="3"
 					label="MOD_ARTICLES_CATEGORY_FIELD_EXCLUDEDARTICLES_LABEL"
 					description="MOD_ARTICLES_CATEGORY_FIELD_EXCLUDEDARTICLES_DESC" />
-					
+
 			</fieldset>
 
 			<fieldset

@@ -2,7 +2,7 @@
 /**
  * @package		Noxidsoft.Site
  * @subpackage	mod_jpopular
- * @copyright	Copyright (C) 2007 - 2013 Noxidsoft. All rights reserved.
+ * @copyright	Copyright (C) 2007 - 2014 Noxidsoft. All rights reserved.
  * @license		GNU General Public License version 2 or later; see LICENSE.txt
  */
 
