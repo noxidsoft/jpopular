@@ -1,0 +1,2 @@
+# jpopular
+This set of Modules shows a list of the currently published Articles which have the highest number of page views. Lists by daily hits, as opposed to hits since creation. This module requires the JPopular system plugin to work, downloaded as part of this single package. Make sure to UNZIP the package first before installing, you will find one(1) module for your public website side, one(1) module for the Administrator side, and a plugin that make it all work together.
